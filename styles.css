@@ -1,0 +1,107 @@
+/* Base styles for better readability and accessibility */
+body {
+    /* Use a system font stack for better performance */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    /* Ensure sufficient line spacing for readability */
+    line-height: 1.6;
+    /* Add comfortable margins */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    /* Use an accessible, high-contrast color scheme */
+    background-color: #f8f9fa;
+    color: #2d2d2d;
+}
+
+/* Headings */
+h1, h2, h3 {
+    /* Add space above headings */
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    /* Make headings stand out */
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+/* Paragraphs */
+p {
+    /* Add space between paragraphs */
+    margin: 1em 0;
+}
+
+/* Links */
+a {
+    /* Use a distinct, accessible color for links */
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+a:hover, a:focus {
+    /* Darken color on interaction */
+    color: #003d82;
+    text-decoration: underline;
+}
+
+/* Images */
+img {
+    /* Make images responsive */
+    max-width: 100%;
+    height: auto;
+    /* Add space around images */
+    margin: 1em 0;
+}
+
+/* Lists */
+ul, ol {
+    /* Add padding for list markers */
+    padding-left: 2em;
+    margin: 1em 0;
+}
+
+li {
+    /* Space between list items */
+    margin: 0.5em 0;
+}
+
+/* Tables */
+table {
+    /* Make tables responsive */
+    width: 100%;
+    margin: 1em 0;
+    border-collapse: collapse;
+}
+
+th, td {
+    /* Add padding inside cells */
+    padding: 0.75em;
+    /* Add subtle borders */
+    border: 1px solid #dee2e6;
+    text-align: left;
+}
+
+th {
+    /* Make headers stand out */
+    background-color: #e9ecef;
+    font-weight: 700;
+}
+
+/* Team logo specific styling */
+.team-logo {
+    /* Control logo size */
+    max-width: 300px;
+    /* Center the logo */
+    display: block;
+    margin: 1em auto;
+} 
