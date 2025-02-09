@@ -3,70 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zo's Homepage</title>
+    <title>Zo Abbasi - Accessibility Bio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to Zo's Homepage</h1>
-    <img src="assets/tube-penguin.jpg" alt="" role="presentation">
-    
-    <h2>Computer Science</h2>
-    <p>I'm passionate about computer science and software development. The ability to create solutions through code and solve complex problems is what drives me. I enjoy learning new programming languages and exploring different areas of computer science, from algorithms to web development.</p>
-    
-    <h3>Favorite CS Topics</h3>
-    <ol>
-        <li>Web Development
-            <ul>
-                <li>Frontend (HTML, CSS, JavaScript)</li>
-                <li>Backend Development</li>
-            </ul>
-        </li>
-        <li>Data Structures & Algorithms</li>
-        <li>Artificial Intelligence</li>
-        <li>Software Engineering Principles</li>
-        <li>Database Systems</li>
-    </ol>
-    
-    <h2>Houston Rockets</h2>
-    <img src="assets/rockets_image.jpg" alt="Houston Rockets team logo" class="team-logo">
-    <p>As a huge Houston Rockets fan, I love following the team's journey in the NBA. The Rockets have an exciting young core with players like Jalen Green and Alperen Sengun leading the way. The team's rich history, including the championship years with Hakeem Olajuwon, makes being a Rockets fan special.</p>
-    
-    <p><a href="https://www.nba.com/rockets" aria-label="Visit the official Houston Rockets website">Visit the official Houston Rockets website</a></p>
-    
-    <h3>Favorite Rockets Moments</h3>
-    <ul>
-        <li>The back-to-back championships (1994-1995)</li>
-        <li>Yao Ming and Tracy McGrady era</li>
-        <li>James Harden's MVP season</li>
-        <li>The current young core's development</li>
-    </ul>
 
-    <h3>Rockets Hall of Famers</h3>
-    <table>
-        <thead>
-            <tr>
-                <th>Player</th>
-                <th>Years with Rockets</th>
-                <th>Jersey Number</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Hakeem Olajuwon</td>
-                <td>1984-2001</td>
-                <td>34</td>
-            </tr>
-            <tr>
-                <td>Yao Ming</td>
-                <td>2002-2011</td>
-                <td>11</td>
-            </tr>
-            <tr>
-                <td>Clyde Drexler</td>
-                <td>1995-1998</td>
-                <td>22</td>
-            </tr>
-        </tbody>
-    </table>
+    <header>
+        <h1>Zo Abbasi</h1>
+        <p>Computer Science Student | Accessibility Enthusiast</p>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="zo-photo.jpeg" alt="A professional headshot of Zo Abbasi" class="profile-img">
+            <p>Hi, I'm <strong>Zo Abbasi</strong>, a senior studying <em>Computer Science</em> with a passion for accessibility in tech.</p>
+            <p>I'm interested in making technology more <strong>inclusive</strong> for all users, including those with disabilities.</p>
+        </section>
+
+        <section id="interests">
+            <h2>My Interests</h2>
+            <ul>
+                <li>Building <strong>accessible websites</strong> and applications</li>
+                <li>Using <strong>AI for accessibility</strong> (screen readers, NLP, etc.)</li>
+                <li>Creating <strong>inclusive designs</strong> that benefit all users</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Interested in collaborating? Feel free to reach out!</p>
+            <form action="mailto:your-email@example.com" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <section id="resources">
+            <h2>Useful Accessibility Resources</h2>
+            <p>Here are some great links for learning about web accessibility:</p>
+            <ul>
+                <li><a href="https://www.w3.org/WAI/" target="_blank">W3C Web Accessibility Initiative</a></li>
+                <li><a href="https://webaim.org/" target="_blank">WebAIM (Web Accessibility in Mind)</a></li>
+            </ul>
+        </section>
+
+        <section id="fun">
+            <h2>Fun Section</h2>
+            <p>Here’s a decorative image just for fun!</p>
+            <img src="tube-penguin.jpg" alt="" class="decorative-img">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Zo Abbasi. All Rights Reserved.</p>
+    </footer>
+
 </body>
 </html>
